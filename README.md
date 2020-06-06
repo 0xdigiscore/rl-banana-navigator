@@ -36,8 +36,8 @@ The task is episodic, and in order to solve the environment, your agent must get
     ├── dqn_agent.py                       # agent to interact and learn from environment
     ├── model.py                           # neural network model (in Pytorch)
     ├── Navigation.ipynb                   # main code for training and testing the agent
-    ├── Report.pdf                         # report of the implementation and details of the learning algorithm
-    ├── tr_checkpoint_1000it_64_64.pth     # stored weights of trained network (1000 iterations, 2 hidden 64 unit layers)
+    ├── Report.md                        # report of the implementation and details of the learning algorithm
+    ├── checkpoint.pth     # stored weights of trained network (1000 iterations, 2 hidden 64 unit layers)
     └── README.md
 
 ### Python Packages
