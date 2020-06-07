@@ -1,5 +1,5 @@
 # Deep RL Banana Navigator
-We train an agent to manuver in a 3-D environment avoiding blue bananas and picking yellow ones as fast as possible. We do this by implementing Deep Q network based on this research paper. The agent works thorugh Agent class in dqn_agent.py and the model architecture is described in model.py.
+We train an agent to manuver in a 3-D environment avoiding blue bananas and picking yellow ones as fast as possible. The agent works thorugh Agent class in dqn_agent.py and the model architecture is described in model.py.
 
 I have described my approach and the code in a more detailed manner in Report.pdf
 

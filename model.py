@@ -21,7 +21,7 @@ class QNetwork(nn.Module):
 		self.fc2 = nn.Linear(512, 256)
 		self.fc3 = nn.Linear(256, 128)
 		self.out = nn.Linear(128, action_size)
-
+		# add batch normal layer
 		self.bn = nn.BatchNorm1d(num_features=state_size)
 
 	def forward(self, state):

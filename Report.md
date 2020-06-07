@@ -49,6 +49,8 @@ Folloing hyper-parameters were used for training:
 
 The rewards over the number of episodes can be found below. Notice that the envrionment was solved around 400 episodes (solved means a score of +13 over 100 consecutive episodes). However for the sake of performance improvement, the agent was trained until 1000 episodes, which led to signifficant improvements.
 
+!["result"](./result.png)
+
 ## 4 Ideas for Future Work
 
 Another approach to tackle this problem would be learning directly from the pixels of the envrionment. This would need some convolutional layers as described in the initial paper of DQN.
