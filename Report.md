@@ -24,7 +24,7 @@ The model, used to solve the environment, has two fully connected hidden layers 
 
 So to summarize the layer structure(in model.py)
 
-**37 units(input)  - 64 units (1st hidden) - 64 units (2nd hidden) - 4 units (output)**
+**37 units(input)  - 512 units (1st hidden) - 256 units (2nd hidden)  - 128 units (2nd hidden) - 4 units (output)**
 
 2.2 Network Hyper-parameters
 
